@@ -1,2 +1,2 @@
 language: java
-ant -f CI.build.xml deployAndTest
+script: ant -f CI/build.xml deployAndTest
