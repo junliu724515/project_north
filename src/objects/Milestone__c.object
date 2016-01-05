@@ -89,6 +89,11 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <label>Milestone</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Milestone Name</label>
         <trackHistory>false</trackHistory>

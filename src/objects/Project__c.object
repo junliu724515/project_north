@@ -86,6 +86,11 @@
         <type>Date</type>
     </fields>
     <label>Project</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Project Name</label>
         <trackHistory>false</trackHistory>
