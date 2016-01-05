@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Project__c</members>
+        <members>Portfolio__c</members>
+        <members>Project_Role__c</members>
+        <members>Milestone__c</members>
+        <members>Task__c</members>
+        <members>Project_Asset__c</members>
+        <members>Deliverable__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>*</members>
         <name>ApexClass</name>
     </types>
@@ -20,5 +34,5 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    <version>31.0</version>
+    <version>35.0</version>
 </Package>
